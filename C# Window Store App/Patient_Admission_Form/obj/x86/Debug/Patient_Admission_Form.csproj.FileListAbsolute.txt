@@ -1,0 +1,109 @@
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\App.g.i.cs
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\App.g.cs
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\MainPage.g.i.cs
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\MainPage.g.cs
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\XamlTypeInfo.g.cs
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\App.xaml
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\MainPage.xaml
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\App.xbf
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\MainPage.xbf
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\XamlSaveStateFile.xml
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\App.xbf
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\MainPage.xbf
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.xr.xml
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.exe
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.pdb
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\resources.pri
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\AppxManifest.xml
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Core\AppxManifest.xml
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Core\Patient_Admission_Form.exe
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.build.appxrecipe
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\System.Runtime.dll
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csproj.CoreCompileInputs.cache
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csproj.CopyComplete
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.exe
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.pdb
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\ResourceHandlingTask.state
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\priconfig.xml
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\priconfig.xml.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\unfiltered.layout.resfiles
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\filtered.layout.resfiles
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\filtered.layout.resfiles.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\excluded.layout.resfiles
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\excluded.layout.resfiles.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\resources.resfiles
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\resources.resfiles.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\pri.resfiles
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\pri.resfiles.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\qualifiers.txt
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\qualifiers.txt.intermediate
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\ProjectArchitectures.txt
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758336200000000.json
+E:\Robiul\Patient_Admission_Form\bin\x86\Debug\AppStyle.xbf
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\AppStyle.xaml
+E:\Robiul\Patient_Admission_Form\obj\x86\Debug\AppStyle.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\App.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\AppStyle.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\MainPage.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.xr.xml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.exe
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.pdb
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\resources.pri
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\AppxManifest.xml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Core\AppxManifest.xml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Core\Patient_Admission_Form.exe
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Patient_Admission_Form.build.appxrecipe
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\System.Runtime.dll
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csprojAssemblyReference.cache
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.g.i.cs
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.g.cs
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.g.i.cs
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.g.cs
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\XamlTypeInfo.g.cs
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.xaml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\AppStyle.xaml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.xaml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\AppStyle.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.xbf
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\XamlSaveStateFile.xml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csproj.CopyComplete
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.exe
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.pdb
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\ResourceHandlingTask.state
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\priconfig.xml
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\priconfig.xml.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\unfiltered.layout.resfiles
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\filtered.layout.resfiles
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\filtered.layout.resfiles.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\excluded.layout.resfiles
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\excluded.layout.resfiles.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\resources.resfiles
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\resources.resfiles.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\pri.resfiles
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\pri.resfiles.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\qualifiers.txt
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\qualifiers.txt.intermediate
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\ProjectArchitectures.txt
+\\192.168.0.10\Student Files\ESAD-41-1-Shared\All Project Modiul-4\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758336200000000.json
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.csprojAssemblyReference.cache
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.g.i.cs
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.g.cs
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.g.i.cs
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.g.cs
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.xaml
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\AppStyle.xaml
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.xaml
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\App.xbf
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\AppStyle.xbf
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\MainPage.xbf
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\XamlSaveStateFile.xml
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.exe
+D:\IDB C#\All Project\Module -04\PROJECT-COGENT -ESAD -41 (C# and UML)\1251184-Robiul Hossain\C# Window Store App\Patient_Admission_Form\obj\x86\Debug\Patient_Admission_Form.pdb

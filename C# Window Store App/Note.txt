@@ -1,0 +1,5 @@
+1.change sql server Name
+2.Change sql Database Name
+3.change Login Id
+4.Change Lonin Passowerd
+5.Execute sql Script

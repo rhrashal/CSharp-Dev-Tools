@@ -1,0 +1,21 @@
+D:\C# Visual studio\Project_Linq\bin\Debug\Project_Linq.exe.config
+D:\C# Visual studio\Project_Linq\bin\Debug\Project_Linq.exe
+D:\C# Visual studio\Project_Linq\bin\Debug\Project_Linq.pdb
+D:\C# Visual studio\Project_Linq\obj\Debug\Project_Linq.csprojAssemblyReference.cache
+D:\C# Visual studio\Project_Linq\obj\Debug\Project_Linq.csproj.CoreCompileInputs.cache
+D:\C# Visual studio\Project_Linq\obj\Debug\Project_Linq.exe
+D:\C# Visual studio\Project_Linq\obj\Debug\Project_Linq.pdb
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\bin\Debug\Project_Linq.exe.config
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\bin\Debug\Project_Linq.exe
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\bin\Debug\Project_Linq.pdb
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\obj\Debug\Project_Linq.csprojAssemblyReference.cache
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\obj\Debug\Project_Linq.csproj.CoreCompileInputs.cache
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\obj\Debug\Project_Linq.exe
+D:\IDB C#\2.microsoft visual c# step by step\Projects\3.Project_Linq\obj\Debug\Project_Linq.pdb
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\bin\Debug\Project_Linq.exe.config
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\bin\Debug\Project_Linq.exe
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\bin\Debug\Project_Linq.pdb
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\obj\Debug\Project_Linq.csprojAssemblyReference.cache
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\obj\Debug\Project_Linq.csproj.CoreCompileInputs.cache
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\obj\Debug\Project_Linq.exe
+G:\Robiul Hossain\Microsoft Visual C# Step By Step\Projects\Projects\3.Project_Linq\obj\Debug\Project_Linq.pdb
