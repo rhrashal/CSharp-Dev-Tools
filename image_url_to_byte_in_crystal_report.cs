@@ -20,12 +20,14 @@
 
                     IList<CloudPos.Model.ProductVarianceSequence> productVarianceSequence = null;
                     productVarianceSequence = productVarianceSequenceService.GetProductVarianceSequence(username, password);
+                    string baseUrl = System.Configuration.ConfigurationManager.AppSettings["rptBaseUrl"];
                     foreach (var item in items)
                     {
                         try
-                        {
+                        {                            
                             WebClient wc = new WebClient();
-                            item.ProudctImage = wc.DownloadData(System.Web.Hosting.HostingEnvironment.MapPath(item.IMAGE_URL));
+                            item.ProudctImage = wc.DownloadData(baseUrl + item.IMAGE_URL);
+                            //item.ProudctImage = wc.DownloadData(System.Web.Hosting.HostingEnvironment.MapPath(item.IMAGE_URL));
                         }
                         catch { }
                     }
