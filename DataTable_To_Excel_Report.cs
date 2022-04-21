@@ -25,8 +25,17 @@
                     }
                     else
                     {
-                        DataRow totalsRow = items.NewRow();
-
+			DataRow totalsRow = items.NewRow();
+                        for (int i = 0; i < items.Columns.Count; i++)
+                        {
+                            if (i>2)
+                            {
+                                string columnName = items.Columns[i].ColumnName.ToString();                               
+                                totalsRow[i] = items.AsEnumerable().Sum(row => row.Field<decimal>(columnName));                                
+                            }                            
+                        }
+                        items.Rows.Add(totalsRow);
+                        //DataRow totalsRow = items.NewRow();
                         //foreach (DataColumn col in items.Columns)
                         //{
                         //    if (items.Columns.IndexOf(col) >= items.Columns.Count - 2)
@@ -39,7 +48,6 @@
                         //                qtyTotal += Decimal.Parse(row[col].ToString());
                         //            else
                         //                amtTotal += Decimal.Parse(row[col].ToString());
-
                         //        }
                         //        if (items.Columns.IndexOf(col) == items.Columns.Count - 2)
                         //            totalsRow["Qty"] = qtyTotal;
@@ -50,10 +58,9 @@
                         //    {
                         //        //totalsRow[col.ColumnName] = "Total : ";
                         //    }
-
                         //}
                         //items.Rows.Add(emptyRow);
-                        items.Rows.Add(totalsRow);
+                        //items.Rows.Add(totalsRow);
                         Guid guid = Guid.NewGuid();
                         string filename = "/CReports/" + guid.ToString() + "." + ".xls";
 
