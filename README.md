@@ -1,5 +1,6 @@
-# Get Project Propary version number : 
+
+### Get Project Propary version number : 
  
- ```ruby
+ ```C#
   System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 ```
