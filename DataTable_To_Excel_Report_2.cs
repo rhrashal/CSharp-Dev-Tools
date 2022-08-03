@@ -22,7 +22,13 @@
 
                         for (int i = 7; i < item.Table.Columns.Count - 1; i++)
                         {
-                            total += Convert.ToDecimal(item[i].ToString());
+                            try
+                            {
+                                total += Convert.ToDecimal(item[i].ToString());
+                            }
+                            catch (Exception ex)
+                            {
+                            }
                         }
 
                         item["Total"] = total.ToString();
