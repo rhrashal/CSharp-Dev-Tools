@@ -10,3 +10,8 @@
 using System.Configuration;
 var data = ConfigurationManager.AppSettings["MyKey"];
 ```
+
+### Server problem 
+```C#
+System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12 | System.Net.SecurityProtocolType.Tls11 | System.Net.SecurityProtocolType.Tls;
+```
