@@ -18,6 +18,7 @@ System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolTyp
 
 ### Crystal Report Limit 
 ```cmd
+https://stackoverflow.com/questions/32438110/crystal-reports-maximum-report-processing-jobs-limit-reached
   run -> regedit 
   goto this address -> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Report Application Server\InprocServer
   set value 1000 in PrintJobLimit
