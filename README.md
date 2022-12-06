@@ -9,6 +9,9 @@
 ```C#
 using System.Configuration;
 var data = ConfigurationManager.AppSettings["MyKey"];
+
+> Asp.Net Core
+var ConnectionStrings = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("ConnectionStrings")["DBConnection"];
 ```
 
 ### Server problem 
