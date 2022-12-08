@@ -1,6 +1,7 @@
  //// first 
 
-
+ //dotnet add package EPPlus --version 4.0.4
+//https://epplussoftware.com/docs/5.3/api/OfficeOpenXml.ExcelPackage.html
 
 public void GenerateExcel(DataTable DT, string fullFileName)
         {
@@ -240,6 +241,15 @@ public void GenerateExcel(DataTable DT, string fullFileName)
                       string fullFileName = System.Web.HttpContext.Current.Server.MapPath("~/CReports") + "/" + guid.ToString() + "." + "xls";
                        GenerateExcel(items, fullFileName);
                        string filename = "/CReports/" + guid.ToString() + ".xls";
+                     if (type!="xls")
+                        {
+                            //Install-Package Aspose.Cells
+                            Workbook workbook = new Workbook(fullFileName);
+                            PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
+                            pdfSaveOptions.AllColumnsInOnePagePerSheet = true;
+                            workbook.Save(fullFileName.Replace(".xls", ".pdf"), pdfSaveOptions);//SaveFormat.Pdf     
+                            filename = "/CReports/" + guid.ToString() + ".pdf";
+                        }
                        return Content(HttpStatusCode.OK, filename);
                     }
                 }
