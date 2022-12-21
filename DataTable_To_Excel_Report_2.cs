@@ -71,3 +71,58 @@
                 return Content(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+ public void CreateExcelFile(DataTable Excel)
+        {
+
+            //Clears all content output from the buffer stream.  
+            Response.ClearContent();
+            //Adds HTTP header to the output stream  
+            Response.AddHeader("content-disposition", string.Format("attachment; filename=ShopwiseStockwithSKUDetail.xls"));
+
+            Response.ContentEncoding = Encoding.UTF8;
+            // Gets or sets the HTTP MIME type of the output stream  
+            Response.ContentType = "application/vnd.ms-excel";
+
+            string space = "";
+
+
+
+            foreach (DataColumn dcolumn in Excel.Columns)
+            {
+
+                //Response.Write(dcolumn.DataType.is);
+                Response.Write(space + dcolumn.ColumnName);
+                space = " \t";
+
+            }
+            Response.Write("\n");
+            int countcolumn;
+            foreach (DataRow dr in Excel.Rows)
+            {
+
+                space = "";
+                for (countcolumn = 0; countcolumn < Excel.Columns.Count; countcolumn++)
+                {
+                    //Response.Write(dr[countcolumn].)
+                    Response.Write(space + dr[countcolumn].ToString());
+                    space = "\t";
+
+                }
+
+                Response.Write("\n");
+            }
+
+            Response.End();
+        }
