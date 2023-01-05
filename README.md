@@ -26,3 +26,36 @@ https://stackoverflow.com/questions/32438110/crystal-reports-maximum-report-proc
   goto this address -> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Report Application Server\InprocServer
   set value 1000 in PrintJobLimit
 ```
+
+### HttpClient Api Call 
+```
+     public OrderResponse GetCapillaryOrderInfoV2(string orderId)
+        {
+            OrderResponse resobj = new OrderResponse();
+            string apiMethod = "Order/V2/" + merchantId + "/" + orderId + "";
+            string apiUrl = APISendUrl + apiMethod;
+
+            using (var client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/x-www-form-urlencoded");
+                client.DefaultRequestHeaders.TryAddWithoutValidation("PublicKey", PublicKey);
+                client.DefaultRequestHeaders.TryAddWithoutValidation("AuthToken", AuthorizationToken);
+                client.DefaultRequestHeaders.TryAddWithoutValidation("MerchantId", merchantId);
+                using (var response = client.GetAsync(apiUrl))
+                {
+                    if (response.Result.IsSuccessStatusCode)
+                    {
+                        string jsonString = response.Result.Content.ReadAsStringAsync().Result;
+                        resobj = JsonConvert.DeserializeObject<OrderResponse>(jsonString);
+                        return resobj;
+                    }
+                    else
+                    {
+                        throw new Exception(response.Result.Content.ReadAsStringAsync().Result);
+                    }
+                }
+
+            }
+        }
+```
