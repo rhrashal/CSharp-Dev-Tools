@@ -59,3 +59,14 @@ https://stackoverflow.com/questions/32438110/crystal-reports-maximum-report-proc
             }
         }
 ```
+
+### Js Time submit in C# get DateTime
+```C#
+       DateTime fdate = DateTime.ParseExact(sdate + " " + stime, "dd-MMM-yyyy HHmmss", CultureInfo.InvariantCulture);
+       DateTime tdate = DateTime.ParseExact(edate + " " + etime, "dd-MMM-yyyy HHmmss", CultureInfo.InvariantCulture);
+
+       function getTimeString(time) {
+            return time.getHours().toString().padStart(2, '0') + "" + time.getMinutes().toString().padStart(2, '0') + "" + time.getSeconds().toString().padStart(2, '0');
+        }
+```
+
