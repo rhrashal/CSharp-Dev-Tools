@@ -5,7 +5,7 @@
 
 The SOLID principles are an acronym for five key design principles: 
   -  [Single Responsibility](#s--single-responsibility-principle)
-  -  [Open/Closed](#O--Open/Closed-Principle) 
+  -  [Open/Closed](#o--openclosed-principle) 
   -  Liskov Substitution, 
   -  Interface Segregation, 
   -  Dependency Inversion. 
