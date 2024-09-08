@@ -7,8 +7,8 @@ The SOLID principles are an acronym for five key design principles:
   -  [Single Responsibility](#s--single-responsibility-principle)
   -  [Open/Closed](#o--openclosed-principle) 
   -  [Liskov Substitution](#l--liskov-substitution-principle)
-  -  [Interface Segregation](), 
-  -  [Dependency Inversion](). 
+  -  [Interface Segregation](#i--interface-segregation-principle)
+  -  [Dependency Inversion](#d--dependency-inversion-principle)
 
 #### Let’s dive into each of these principles in detail, along with some examples and tips on how to use them in your C# projects.
 
