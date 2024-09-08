@@ -111,54 +111,54 @@ Here’s an example of how to apply the LSP in C#:
 ```C#
 // Bad: Subclass does not behave like its parent class
 public class Rectangle{
-public virtual int Width { get; set; }
-public virtual int Height { get; set; }
+  public virtual int Width { get; set; }
+  public virtual int Height { get; set; }
 
-public int CalculateArea()
-{
-    return Width * Height;
-}
-
+  public int CalculateArea()
+  {
+      return Width * Height;
+  }
+  
 }
 
 public class Square : Rectangle
 {
-public override int Width
-{
-get { return base.Width; }
-set { base.Width = value; base.Height = value; }
-}
-public override int Height
-{
-    get { return base.Height; }
-    set { base.Height = value; base.Width = value; }
-}
+  public override int Width
+  {
+    get { return base.Width; }
+    set { base.Width = value; base.Height = value; }
+  }
+  public override int Height
+  {
+      get { return base.Height; }
+      set { base.Height = value; base.Width = value; }
+  }
 
 }
 
 // Good: Subclass behaves like its parent class
 public abstract class Shape
 {
-public abstract int CalculateArea();
+  public abstract int CalculateArea();
 }
 
 public class Rectangle : Shape
 {
-public int Width { get; set; }
-public int Height { get; set; }
-public override int CalculateArea()
-{
-    return Width * Height;
-}
+  public int Width { get; set; }
+  public int Height { get; set; }
+  public override int CalculateArea()
+  {
+      return Width * Height;
+  }
 }
 
 public class Square : Shape
 {
-public int Side { get; set; }
-public override int CalculateArea()
-{
-    return Side * Side;
-}
+  public int Side { get; set; }
+  public override int CalculateArea()
+  {
+      return Side * Side;
+  }
 }
 
 ```
