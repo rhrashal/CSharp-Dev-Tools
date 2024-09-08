@@ -6,10 +6,11 @@
 The SOLID principles are an acronym for five key design principles: 
   -  [Single Responsibility](#s--single-responsibility-principle)
   -  [Open/Closed](#o--openclosed-principle) 
-  -  Liskov Substitution, 
-  -  Interface Segregation, 
-  -  Dependency Inversion. 
-Let’s dive into each of these principles in detail, along with some examples and tips on how to use them in your C# projects.
+  -  [Liskov Substitution](#l--liskov-substitution-principle)
+  -  [Interface Segregation](), 
+  -  [Dependency Inversion](). 
+
+#### Let’s dive into each of these principles in detail, along with some examples and tips on how to use them in your C# projects.
 
 ### S — Single Responsibility Principle
 
@@ -99,6 +100,67 @@ public class LoyalCustomerOrder : Order
 ```
 
 
+### L — Liskov Substitution Principle
 
+The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. In other words, a subclass should be able to substitute its parent class without causing any unexpected behavior.
+
+For example, consider a class that calculates the area of a rectangle. If we create a subclass that calculates the area of a square, it should still work correctly when substituted for the rectangle class.
+
+Here’s an example of how to apply the LSP in C#:
+
+```C#
+// Bad: Subclass does not behave like its parent class
+public class Rectangle{
+public virtual int Width { get; set; }
+public virtual int Height { get; set; }
+
+public int CalculateArea()
+{
+    return Width * Height;
+}
+
+}
+
+public class Square : Rectangle
+{
+public override int Width
+{
+get { return base.Width; }
+set { base.Width = value; base.Height = value; }
+}
+public override int Height
+{
+    get { return base.Height; }
+    set { base.Height = value; base.Width = value; }
+}
+
+}
+
+// Good: Subclass behaves like its parent class
+public abstract class Shape
+{
+public abstract int CalculateArea();
+}
+
+public class Rectangle : Shape
+{
+public int Width { get; set; }
+public int Height { get; set; }
+public override int CalculateArea()
+{
+    return Width * Height;
+}
+}
+
+public class Square : Shape
+{
+public int Side { get; set; }
+public override int CalculateArea()
+{
+    return Side * Side;
+}
+}
+
+```
 
 
