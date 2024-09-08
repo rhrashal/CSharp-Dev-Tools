@@ -164,3 +164,141 @@ public class Square : Shape
 ```
 
 
+### I — Interface Segregation Principle
+
+The Interface Segregation Principle (ISP) states that a class should not be forced to implement interfaces it does not use. In other words, we should avoid creating bloated interfaces that contain unnecessary methods. For example, consider a class that implements an interface with many methods, but only needs to use a few of them.
+
+This violates the ISP because the class is forced to implement unnecessary methods.
+
+Here’s an example of how to apply the ISP in C#:
+
+```C#
+// Bad: Bloated interface with unnecessary methods
+public interface IAnimal
+{
+    void Walk();
+    void Swim();
+    void Fly();
+}
+
+public class Dog : IAnimal
+{
+    public void Walk()
+    {
+        // Dog walking logic
+    }
+
+    public void Swim()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Fly()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+// Good: Interface with only necessary methods
+public interface IWalkableAnimal
+{
+    void Walk();
+}
+
+public interface ISwimmableAnimal
+{
+    void Swim();
+}
+
+public interface IFlyableAnimal
+{
+    void Fly();
+}
+
+public class Dog : IWalkableAnimal
+{
+    public void Walk()
+    {
+        // Dog walking logic
+    }
+}
+```
+
+### D — Dependency Inversion Principle
+
+The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. In other words, we should depend on abstractions, not on concrete implementations.
+
+For example, consider a class that depends on a concrete implementation of a database. If we want to switch to a different type of database, we would need to modify the class. Instead, we should depend on an abstraction of the database, which can be implemented by different types of databases.
+
+Here’s an example of how to apply the DIP in C#:
+
+```C#
+// Bad: Class depends on a concrete implementation of a database
+public class UserRepository
+{
+    private SqlDatabase _database;
+
+    public UserRepository()
+    {
+        _database = new SqlDatabase();
+    }
+
+    public List<User> GetUsers()
+    {
+        // Data retrieval logic using the SqlDatabase implementation
+    }
+}
+
+// Good: Class depends on an abstraction of a database
+public interface IDatabase
+{
+    List<User> GetUsers();
+}
+
+public class SqlDatabase : IDatabase
+{
+    public List<User> GetUsers()
+    {
+        // Data retrieval logic using the SQL implementation
+    }
+}
+
+public class UserRepository
+{
+    private IDatabase _database;
+
+    public UserRepository(IDatabase database)
+    {
+        _database = database;
+    }
+
+    public List<User> GetUsers()
+{
+return _database.GetUsers();
+}
+}
+
+
+
+```
+
+
+### Tips and Tricks
+
+— Keep your classes and methods focused on a single responsibility.
+
+— Use interfaces to abstract away implementation details and increase flexibility.
+
+— Favor composition over inheritance.
+
+— Write tests to ensure that your code follows the SOLID principles.
+
+— Be careful not to over-engineer your code.
+
+Sometimes a simple solution is the best one. Conclusion The SOLID principles provide guidelines for writing maintainable, flexible, and robust code. By following these principles, we can create code that is easy to understand, modify, and extend. C# is a great language for implementing these principles, thanks to its support for interfaces, abstract classes, and dependency injection.
+
+Remember, the SOLID principles are not rules set in stone, but rather guidelines that should be adapted to the needs of each project. So, always keep in mind the principles of SOLID, but don’t be afraid to deviate from them when necessary.
+
+And, as a final note, always remember that even the best-designed code can’t make up for a lack of testing, proper debugging, or user feedback. So, keep an open mind, listen to your users, and iterate on your code to make it better over time.
+
+Happy coding!
