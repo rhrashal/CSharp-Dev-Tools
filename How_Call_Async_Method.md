@@ -1,6 +1,6 @@
-###   How to call asynchronous method from synchronous method in C#?
+##   How to call asynchronous method from synchronous method in C#?
 
-## Create Invoke Function
+### Create Invoke Function
 
 ```C#
 private T InvokeAsyncMethod<T>(Func<Task<T>> func)
@@ -11,7 +11,7 @@ private T InvokeAsyncMethod<T>(Func<Task<T>> func)
         .GetResult();
 }
 ```
-## Call Invoke Function
+### Call Invoke Function
 ```C#
-                var party = InvokeAsyncMethod(() => CreateAsync(item));
+var party = InvokeAsyncMethod(() => CreateAsync(item));
 ```
