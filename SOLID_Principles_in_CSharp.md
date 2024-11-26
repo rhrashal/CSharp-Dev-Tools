@@ -59,7 +59,7 @@ The Open/Closed Principle (OCP) states that a class should be open for extension
 
 For example, consider a class that calculates the total cost of an order. If we need to add a new discount for a specific type of customer, we should be able to do so without modifying the existing code.
 
-Here’s an example of how to apply the OCP in C#:The Open/Closed Principle (OCP) states that a class should be open for extension but closed for modification. In other words, we should be able to add new functionality to a class without changing its existing code.
+Here’s an example of how to apply the OCP in C#: The Open/Closed Principle (OCP) states that a class should be open for extension but closed for modification. In other words, we should be able to add new functionality to a class without changing its existing code.
 
 For example, consider a class that calculates the total cost of an order. If we need to add a new discount for a specific type of customer, we should be able to do so without modifying the existing code.
 
